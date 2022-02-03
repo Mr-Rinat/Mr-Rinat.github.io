@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Начальный экран</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	
+<style>
+body {
+	margin: 0;
+	padding: 0;
+	background: url(main.webp);
+}
+
+.nav {
+	text-align: center;
+}
+
+.main-menu {
+	width: 1000px;
+	list-style: none;
+	padding: 0;
+	font-size: 24px;
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+.main-menu li {
+	display: inline-block;
+	padding: 0;
+	margin-right: -6px;
+}
+
+.main-menu a {
+	color: white;
+	background: gray;
+	text-decoration: none;
+	padding: 10px;
+	margin: 0;
+	outline: none;
+}
+
+.main-menu a:hover {
+	background: #2b2b2b;
+}
+
+.main-menu a:active {
+	color: #FFDA81;
+}
+
+.title {
+	margin-top: 5%;
+	text-align: center;
+	color: #FFDA81;
+}
+
+.progress_conteiner {
+	margin-top: 5%;
+	text-align: center;
+	color: white;
+}
+
+.footer	{
+	padding: 10px 20px;
+	background: #666;
+	color: white;
+	position: fixed; /* Фиксированное положение */
+ right: 0;
+ bottom: 0;
+ left: 0;
+ list-style-type: none;
+}
+</style>
+</head>
+
+<body>
+
+<div class=nav>
+	<ul class="main-menu">
+	<li><a href="catalog.html">Планировка и цены</a></li>
+	<li class="active"><a href="index.html">Начальный экран</a></li>
+	<li><a href="contacts.html">Запись на экскурсию</a></li>
+	</ul>
+</div>
+
+<div class="title">
+	<h1><img src="favicon.png" width="128" height="140" <strong>Элитный жилой комплекс</strong></h1>
+	<p>в центре Ульяновска</p>
+</div>
+
+<div style="float: left; padding-left: 50px; color: white; margin-top: 5%;"><strong>Квартиры от 30 до 184 м <sup>2</sup> одно/двухуровневые</strong></div>
+<div style="float: right; padding-right: 50px; color: white; margin-top: 5%;"><strong>Ипотека от 3%</strong></div>
+<div style="margin: 0 auto; width: 100px; text-align: center; color: white; margin-top: 5%;"><strong>Подземный паркинг и закрытый двор</strong></div>
+
+<div class="progress_conteiner">
+<h2>Прогресс строительства</h2>
+<div class="container">
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+      <span class="sr-only">Готовность: 70%</span>
+	  <p>70%</p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+ <footer class="footer">Copyright 2022 г.
+ 	<li><img src="favicon.png" width="35" height="40"></li>
+</footer>
+</body>
+
+</html>
